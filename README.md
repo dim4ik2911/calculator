@@ -1,5 +1,5 @@
 # calculator
-###Functions
+### Functions
 
 function cancelDelete(){}
 function addNumber(){}
@@ -7,7 +7,7 @@ functions addOperator(){}
 function countTotal(){}
 
 
-###Query Selectors
+### Query Selectors
 
 document.getQuerySelector("#zero");
 document.getQuerySelector("#one");
