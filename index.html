@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator app</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
@@ -14,37 +14,31 @@
   </head>
   <body>
     <div class="calculator">
-        <section class="space"><p id="solve">5 + 5 = 20</p></section>
-        <setion class="calculate">
-            <div class="enter">
-                <button><p>EQUAL</p></button>
-            </div>
-            <div class="operations">
-                </button><p id="divide">&#247;</p><button>
-                </button><p id="multiply">&#215;</p><button>
-                </button><p id="plus">+</p><button>
-                </button><p id="minus">-</p><button>
-            </div>
-            <div class="third">
-                </button><p id="eight">8</p><button>
-                </button><p id="nine">9</p><button>
-                </button><p id="dot">.</p><button>
-                </button><p id="cancel">c</p><button>
-            </div>
-            <div class="second">
-                </button><p id="four">4</p><button>
-                </button><p id="five">5</p><button>
-                </button><p id="six">6</p><button>
-                </button><p id="seven">7</p><button>
-            </div>
-            <div class="first">
-                </button><p id="zero">0</p><button>
-                </button><p id="one">1</p><button>
-                </button><p id="two">2</p><button>
-                </button><p id="three">3</p><button>
-            </div>
-        </setion>
-    </div>
+      <input type="text" class="screen" value="" disabled />
 
+      <div class="buttons">
+        <button type="button" class="equal" value="=">equal</button>
+        <button type="button" class="operator" value="-">-</button>
+        <button type="button" class="operator" value="+">+</button>
+        <button type="button" class="operator" value="*">&times;</button>
+        <button type="button" class="operator" value="/">&divide;</button>
+        <button type="button" value="8">8</button>
+        <button type="button" value="9">9</button>
+        <button type="button" class="dot" value=".">.</button>
+        <button type="button" class="clear" value="all-clear">c</button>
+
+        <button type="button" value="4">4</button>
+        <button type="button" value="5">5</button>
+        <button type="button" value="6">6</button>
+        <button type="button" value="7">7</button>
+
+        <button type="button" value="1">1</button>
+        <button type="button" value="2">2</button>
+        <button type="button" value="3">3</button>
+
+        <button type="button" value="0">0</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
