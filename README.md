@@ -1,9 +1,9 @@
 
-# Calculator 
+# Calculator "Blue Lagoon"
 
 
 
-## calculator built using HTML, SCSS and JavaScript
+## Calculator is built using HTML, SCSS and JavaScript
 
 
 
@@ -11,7 +11,7 @@
 
 
 ### CSS is made using SASS preprocessor for having opportunity to use variables and nesting
-### CSS Grid was used for layout
+### CSS Grid is used for layout
 
 
 
