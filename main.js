@@ -28,6 +28,12 @@ function inputNumber(number) {
 
 // ADDING DOT IF IT IS NOT THERE AT THE MOMENT WHEN WE PRESS IT
 function inputDot(dot) {
+  ///if dot is added after clicking operator it means it is second operand
+  if (calculator.waitingForSecondOperand === true) {
+    calculator.displayValue = "0.";
+    calculator.waitingForSecondOperand = false;
+    return;
+  }
   if (!calculator.displayValue.includes(dot)) {
     calculator.displayValue += dot;
   }
