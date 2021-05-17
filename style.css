@@ -69,3 +69,16 @@ body {
 .calculator .buttons .equal:focus {
   background-color: #034370;
 }
+
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 87.5%;
+    font-family: "Russo One", sans-serif;
+  }
+}
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 75%;
+    font-family: "Russo One", sans-serif;
+  }
+}
