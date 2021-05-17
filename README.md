@@ -1,21 +1,19 @@
-
-# Calculator "Blue Lagoon"
-
+<h1 align="center">Calculator "Blue Lagoon"</h1>
 
 
-## Calculator is built using HTML, SCSS and JavaScript
+<h2 align="center">Calculator is built using HTML, SCSS and JavaScript</h2>
 
 
 
-### HTML body part is made very simple, using just elements: div, input and button
+<h3 align="center">HTML body part is made very simple, using just elements: div, input and button</h3>
 
 
-### CSS is made using SASS preprocessor for having opportunity to use variables and nesting
-### CSS Grid is used for layout
+<h3 align="center">CSS is made using SASS preprocessor for having opportunity to use variables and nesting</h3>
+<h3 align="center">CSS Grid is used for layout</h3>
 
 
 
-### JavaScript is made using:
-#### 1 object to control the 4 main values of calculator: displayed value, first operand, second operand and operator
-#### 1 addEventListener  on click to control 5 main functions
-#### 6 functions in total to manage work of calculator
+<h3 align="center">JavaScript is made using:</h3>
+<h3 align="center">1 object to control the 4 main values of calculator: displayed value, first operand, second operand and operator</h3>
+  <h3 align="center">1 addEventListener  on click to control 5 main functions</h3>
+<h3 align="center">6 functions in total to manage work of calculator</h3>
