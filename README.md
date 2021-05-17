@@ -1,7 +1,7 @@
 <h1 align="center">Calculator</h1>
 </br>
 </br>
-<h2 align="center">HTML, SCSS and JavaScript</h2>
+<h2 align="center">HTML, CSS and JavaScript</h2>
 </br>
 </br>
 <h3 align="center">HTML body part is made very simple, using just elements: div, input and button</h3>
