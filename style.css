@@ -44,11 +44,11 @@ body {
   text-transform: uppercase;
   font-family: "Russo One", sans-serif;
 }
+.calculator .buttons .operator {
+  background-color: #38a2e8;
+}
 .calculator .buttons .equal {
   grid-column: 1/5;
   grid-row: 1/2;
   background-color: #014c81;
-}
-.calculator .buttons .operator {
-  background-color: #38a2e8;
 }

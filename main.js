@@ -40,6 +40,13 @@ function workWithOperator(nextOperator) {
   const operator = calculator.operator;
   const inputValue = parseFloat(displayValue);
   // we replace a string with float number
+
+  if (operator && calculator.waitingForSecondOperand) {
+    calculator.operator = nextOperator;
+    console.log(calculator);
+    return;
+  }
+
   if (firstOperand === null && !isNaN(inputValue)) {
     //we are checking if first operand is equal null as we defined in the beginning and if inputValue is a number
     calculator.firstOperand = inputValue;
@@ -72,6 +79,14 @@ function calculate(firstOperand, secondOperand, operator) {
   return secondOperand;
 }
 
+// FUCNTION TO RESET A CALCULATOR
+function resetCalculator() {
+  calculator.displayValue = "0";
+  calculator.firstOperand = null;
+  calculator.waitingForSecondOperand = false;
+  calculator.operator = null;
+  console.log(calculator);
+}
 // UPDATE DISPLAY FUNCTION
 function updateDisplay() {
   // select an element with class of "space"
@@ -111,7 +126,8 @@ buttons.addEventListener("click", (event) => {
 
   //if element buttons contains class clear
   if (target.classList.contains("clear")) {
-    console.log("clear", target.value);
+    resetCalculator();
+    updateDisplay();
     return;
   }
 
