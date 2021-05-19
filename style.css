@@ -71,16 +71,9 @@ body {
 }
 
 @media screen and (min-width: 1025px) {
-  .body {
-    float: right;
-    width: 100%;
-  }
-
-  .calculator {
-    width: 40rem;
-    height: 60rem;
-    min-height: 0;
-    float: right;
+  html {
+    font-size: 87.5%;
+    font-family: "Russo One", sans-serif;
   }
 }
 @media screen and (min-width: 769px) {
