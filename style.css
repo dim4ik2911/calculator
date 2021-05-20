@@ -34,6 +34,7 @@ body {
   right: 1rem;
   font-size: 8rem;
   text-align: right;
+  background-color: red;
 }
 .calculator .buttons {
   grid-column: 1/5;
@@ -68,17 +69,4 @@ body {
 }
 .calculator .buttons .equal:focus {
   background-color: #034370;
-}
-
-@media screen and (min-width: 1025px) {
-  html {
-    font-size: 87.5%;
-    font-family: "Russo One", sans-serif;
-  }
-}
-@media screen and (min-width: 769px) {
-  html {
-    font-size: 75%;
-    font-family: "Russo One", sans-serif;
-  }
 }
