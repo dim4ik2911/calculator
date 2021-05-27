@@ -34,7 +34,6 @@ body {
   right: 1rem;
   font-size: 8rem;
   text-align: right;
-  background-color: red;
 }
 .calculator .buttons {
   grid-column: 1/5;
